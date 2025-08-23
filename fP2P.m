@@ -3,10 +3,10 @@
 	@usage: dist = fP2P(P1, P2)
 
 	@param[out]:
-	- dist, a N1-by-N2 matrix, w/ each ij be the distance from P1(:, i) to P2(:, j).
+	- dist: a N1-by-N2 matrix, w/ each ij be the distance from P1(:, i) to P2(:, j).
 	@param[in]:
-	- P1, a dim-by-N1 matrix, each column be a vector for a point in set P1.
-	- P2, a dim-by-N2 matrix, each column be a vector for a point in set P2.
+	- P1: a dim-by-N1 matrix, each column be a vector for a point in set P1.
+	- P2: a dim-by-N2 matrix, each column be a vector for a point in set P2.
 
 	@note:
 	- This function expects *column first* matrix.

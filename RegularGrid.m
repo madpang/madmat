@@ -7,11 +7,11 @@
 	- optionally variable outputs are also available, please inspect the source code.
 	@param[in]:
 	- pixSz: pixSz = [dx, dy], grid size:
-		- dx, pixel grid size, in x-direction (2D Cartesian convention);
-		- dy, pixel grid size, in y-direction (2D Cartesian convention).
+		- dx: pixel grid size, in x-direction (2D Cartesian convention);
+		- dy: pixel grid size, in y-direction (2D Cartesian convention).
 	- pixNum: pixNum = [nx, ny], number of grids:
-		- n1, number of pixels in x-direction;
-		- n2, number of pixels in y-direction.
+		- n1: number of pixels in x-direction;
+		- n2: number of pixels in y-direction.
 	- optCent (optional): the center of circle, 2D vector, defaults to `[0, 0]`.
 
 	@details:
