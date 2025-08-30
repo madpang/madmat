@@ -3,10 +3,10 @@
 	@usage: [intG1, intG2, intLen, len] = CircXLine(eP1, eP2, cent, r, [mo])
 
 	@param[out]:
-	- 1 output case: intLen, intersection length;
-	- 2 output case: [intG1, intG2], coordinates of the intersection points, 2 per circle;
+	- 1 output case: intLen -- intersection length;
+	- 2 output case: [intG1, intG2] -- coordinates of the intersection points, 2 per circle;
 	- 3 output case: [intG1, intG2, intLen];
-	- 4 output case: [intG1, intG2, intLen, len], 
+	- 4 output case: [intG1, intG2, intLen, len]
 		- intG1: "entering" point, dim-by-N0-by-N1-by-N2;
 		- intG2: "leaving" point, dim-by-N0-by-N1-by-N2;
 		- intLen: intersection length, 1-by-N0-by-N1-by-N2;
@@ -52,7 +52,6 @@ function varargout = CircXLine(eP1, eP2, cent, r, varargin)
 	end
 
 	% --- Main body
-
 	% Dimension expansion
 	eP1 = reshape(eP1, [dim, 1, N1, 1]);
 	eP2 = reshape(eP2, [dim, 1, 1, N2]);
